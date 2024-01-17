@@ -1,3 +1,4 @@
+//Quick sorts
 function quickSort(arr, start, last) {
   if (start < last) {
     let pivot = partition(arr, start, last);
