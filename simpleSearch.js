@@ -1,0 +1,5 @@
+//Simple search
+
+function simpleSearch(){
+    //
+}
