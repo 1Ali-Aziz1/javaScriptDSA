@@ -1,4 +1,16 @@
-arr = [2,9,3,5,6,8,1,4,7]
+arr = []
+
+function generateRandomNumbers() {
+    let arr = [];
+    for (let i = 0; i < 100; i++) {
+      arr.push(Math.floor(Math.random() * 100) + 1);
+    }
+    return arr;
+}
+
+arr = generateRandomNumbers();
+
+console.log(arr)
 
 function bubbleSort(arr){
     for (let i = 0; i < arr.length-1; i++) {
@@ -13,4 +25,6 @@ function bubbleSort(arr){
     return arr;
 }
 
-console.log(bubbleSort(arr))
+arr = bubbleSort(arr);
+
+console.log(bubbleSort(arr));
