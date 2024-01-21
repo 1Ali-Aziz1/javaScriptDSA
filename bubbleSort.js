@@ -8,6 +8,8 @@ function generateRandomNumbers() {
     return arr;
 }
 
+//Added comments
+
 arr = generateRandomNumbers();
 
 console.log(arr)
