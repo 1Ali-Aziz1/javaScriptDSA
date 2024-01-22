@@ -8,11 +8,9 @@ function generateRandomNumbers() {
     return arr;
 }
 
-//Added comments
-
 arr = generateRandomNumbers();
 
-console.log(arr)
+console.log("Initial value of array ",arr)
 
 function bubbleSort(arr){
     for (let i = 0; i < arr.length-1; i++) {
@@ -29,4 +27,4 @@ function bubbleSort(arr){
 
 arr = bubbleSort(arr);
 
-console.log(bubbleSort(arr));
+console.log("Value of array after sorting by BubbleSort Algorithm",arr);
