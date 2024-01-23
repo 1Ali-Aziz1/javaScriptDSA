@@ -1,5 +1,3 @@
-arr = []
-
 function generateRandomNumbers() {
     let arr = [];
     for (let i = 0; i < 100; i++) {
@@ -10,7 +8,7 @@ function generateRandomNumbers() {
 
 arr = generateRandomNumbers();
 
-console.log("Initial value of array ",arr)
+console.log("Initial value of array:",arr)
 
 function bubbleSort(arr){
     for (let i = 0; i < arr.length-1; i++) {
@@ -27,4 +25,4 @@ function bubbleSort(arr){
 
 arr = bubbleSort(arr);
 
-console.log("Value of array after sorting by BubbleSort Algorithm",arr);
+console.log("Value of array after sorting by BubbleSort Algorithm:",arr);
