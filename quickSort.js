@@ -1,4 +1,3 @@
-//Quick sorts
 function quickSort(arr, start, last) {
   if (start < last) {
     let pivot = partition(arr, start, last);
@@ -10,7 +9,6 @@ function quickSort(arr, start, last) {
 
 function partition(arr, start, last) {
   let i = start - 1;
-  // console.log(start);
   let pivot = arr[last];
 
   for (let j = start; j <= last; j++) {
@@ -19,7 +17,6 @@ function partition(arr, start, last) {
       let temp = arr[i];
       arr[i] = arr[j];
       arr[j] = temp;
-      // console.log("hi");
     }
   }
   i++;
@@ -39,7 +36,7 @@ function generateRandomNumbers() {
 
 arr = generateRandomNumbers();
 
-console.log("Initial value of the array", arr);
+console.log("Initial value of the array:", arr);
 
 arr = quickSort(arr, 0, arr.length - 1);
-console.log("Sorted array", arr);
+console.log("Sorted array:", arr);
