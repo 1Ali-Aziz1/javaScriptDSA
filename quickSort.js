@@ -1,4 +1,5 @@
 function quickSort(arr, start, last) {
+  //Main function.
   if (start < last) {
     let pivot = partition(arr, start, last);
     quickSort(arr, start, pivot - 1);
@@ -8,6 +9,7 @@ function quickSort(arr, start, last) {
 }
 
 function partition(arr, start, last) {
+  //This function is for partition of array.
   let i = start - 1;
   let pivot = arr[last];
 
@@ -27,6 +29,7 @@ function partition(arr, start, last) {
 }
 
 function generateRandomNumbers() {
+  //This function generates random number from 1 to 100
   let arr = [];
   for (let i = 0; i < 100; i++) {
     arr.push(Math.floor(Math.random() * 100) + 1);
