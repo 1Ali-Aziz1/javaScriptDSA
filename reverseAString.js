@@ -12,15 +12,18 @@ function reverseString(str) {
 
     for (let i = 0; i < str.length; i++) {
         //This loop puts the string's letters to array(variable letters)
-        letters.push(str[i]);
+        letters.push(str[i]);//Pushes i'th letter to the array(variable letters)
     }
     for (let i = 0; i < str.length; i++) {
-        temp = reversedStr;
-        reversedStr = temp + letters[letters.length-i-1];
+        //This loop adds letters to the reversed string(variable reversedStr)
+        temp = reversedStr;//Storing the reversed string's(variable reversedSr) value.
+        reversedStr = temp + letters[letters.length-i-1];//Adds the old reversed string(variable reversedStr) and a new letter from the the array(variable reversedStr) but from reverse.
     }
-    return(reversedStr);
+    return(reversedStr);//Return the reversed string(variable reversedStr)
 }
 
 string = "red";//This the sting we will reverse. You can change this to any word you like to reverse
 
-reverseString(string);//Calling the main function
+reversedString = reverseString(string);//This variable stores the reversed string
+
+console.log(reversedString);//Shows the reversed array.
