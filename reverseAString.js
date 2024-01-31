@@ -26,4 +26,5 @@ string = "red";//This the sting we will reverse. You can change this to any word
 
 reversedString = reverseString(string);//This variable stores the reversed string
 
-console.log(reversedString);//Shows the reversed array.
+console.log("Original string: "+string);//Shows the original array.
+console.log("Reversed string: "+reversedString);//Shows the reversed array.
