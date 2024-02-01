@@ -28,3 +28,9 @@ reversedString = reverseString(string);//This variable stores the reversed strin
 
 console.log("Original string: "+string);//Shows the original array.
 console.log("Reversed string: "+reversedString);//Shows the reversed array.
+
+if (string != reversedStr) {
+    console.log(string + " isn't a palindrome");
+} else {
+    console.log(string + " is a palindrome");
+}
