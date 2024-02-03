@@ -19,20 +19,20 @@ function reverseString(str) {
         temp = reversedStr;//Storing the reversed string's(variable reversedSr) value.
         reversedStr = temp + letters[letters.length-i-1];//Adds the old reversed string(variable reversedStr) and a new letter from the the array(variable reversedStr) but from reverse.
     }
-    return(reversedStr);//Return the reversed string(variable reversedStr)
+    return(reversedStr);//Return the reversed string(variable reversedStr).
 }
 
-string = "red";//This the sting we will reverse. You can change this to any word you like to reverse
+string = "red";//This the sting we will reverse. You can change this to any word you like to reverse.
 
-reversedString = reverseString(string);//This variable stores the reversed string
+reversedString = reverseString(string);//This variable stores the reversed string.
 
 console.log("Original string: "+string);//Shows the original array.
 console.log("Reversed string: "+reversedString);//Shows the reversed array.
 
 
-//Checkin if it's a palindrome or not?
+//Checking if it's a palindrome or not.
 if (string != reversedStr) {
-    console.log(string + " isn't a palindrome");
+    console.log(string + " isn't a palindrome");//Shows that it's a palindrome.
 } else {
     console.log(string + " is a palindrome");
 }
