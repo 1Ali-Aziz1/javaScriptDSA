@@ -5,13 +5,13 @@
 //Let's get started.
 
 function reverseString(str) {
-    //The parameter "str" is the string we will reverse
+    //The parameter "str" is the string we will reverse.
     
     letters = [];//This array stores the string letters.
-    reversedStr = "";//This variable stores reversed string
+    reversedStr = "";//This variable stores reversed string.
 
     for (let i = 0; i < str.length; i++) {
-        //This loop puts the string's letters to array(variable letters)
+        //This loop puts the string's letters to array(variable letters).
         letters.push(str[i]);//Pushes i'th letter to the array(variable letters).
     }
     for (let i = 0; i < str.length; i++) {
@@ -32,7 +32,8 @@ console.log("Reversed string: "+reversedString);//Shows the reversed array.
 
 //Checking if it's a palindrome or not.
 if (string != reversedStr) {
+    //This statement checks wether the string and reversedString is same or not
     console.log(string + " isn't a palindrome");//Shows that it's a palindrome.
 } else {
-    console.log(string + " is a palindrome");//Shows that it's not a palindrome
+    console.log(string + " is a palindrome");//Shows that it's not a palindrome.
 }
