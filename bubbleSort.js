@@ -7,9 +7,9 @@ function generateRandomNumbers() {
     return arr;
 }
 
-arr = generateRandomNumbers();
+arr = generateRandomNumbers();//Makes an array with randomly generated number(Using function 'generateRandomNumbers').
 
-console.log("Initial value of array:",arr)
+console.log("Initial value of array:",arr)//Shows the value of array(Variable arr)
 
 function bubbleSort(arr){
     //Sorting algorithm which uses bubble sort
