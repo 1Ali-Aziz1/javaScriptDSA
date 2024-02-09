@@ -15,6 +15,9 @@ function sortStringArrays(arr) {
     return arr;
 }
 
-let arr = ['b', 'c', 'd', 'e','q', 'a'];//Change it how you like
+let arr = ['b', 'c', 'd', 'e','q', 'a', 's','n', 'k', 'l', 'x', 't', 'u', 'z'];//Change it how you like
 
-console.log(sortStringArrays(arr));
+let sortedArr = sortStringArrays(arr);
+
+console.log("The initial value of array:", arr);
+console.log("The sorted value of array:", sortedArr);
