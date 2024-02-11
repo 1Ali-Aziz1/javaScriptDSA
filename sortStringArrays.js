@@ -12,7 +12,7 @@ function sortStringArrays(arr) {
             }
         }
     }
-    return arr;
+    return arr;//Reurns the Array
 }
 
 let arr = ['b', 'c', 'd', 'e','q', 'a', 's','n', 'k', 'l', 'x', 't', 'u', 'z'];//Change it how you like
