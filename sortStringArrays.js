@@ -12,12 +12,12 @@ function sortStringArrays(arr) {
             }
         }
     }
-    return arr;//Reurns the Array
+    return arr;//Returns the Array
 }
 
 let arr = ['b', 'c', 'd', 'e','q', 'a', 's','n', 'k', 'l', 'x', 't', 'u', 'z'];//Change it how you like
 
 let sortedArr = sortStringArrays(arr);//This variable stores the sorted value of the unsorted array.
 
-console.log("The initial value of array:", arr);
-console.log("The sorted value of array:", sortedArr);
+console.log("The initial value of array:", arr);//Shows the Initial value of the array
+console.log("The sorted value of array:", sortedArr);//Shows the value of array after sorting it out
