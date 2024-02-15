@@ -9,7 +9,7 @@ function sortStringArrays(arr) {
             if (arr[j]>arr[j+1]) {
                 let temp = arr[j];//Stores the value n temporarily variable
                 arr[j] = arr[j+1];//Swaps the value
-                arr[j+1] = temp;
+                arr[j+1] = temp;//Swaps the value
             }
         }
     }
